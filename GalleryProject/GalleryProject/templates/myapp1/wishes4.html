@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Static Files in dj app</title>
+    <link href="{% static 'css/wishes4.css' %}" rel="stylesheet">
+</head>
+<body>
+    <h1 id=h11>{{msg1}}</h1>
+    <hr />
+    <h2 id=h22>Current Server Date & Time :: {{date1}}</h2>
+    <hr />
+    <h3>At this time your image is:</h3>
+    <img src="{%static 'images/nature.jpg'%}" alt="Image1" id="img1" />
+</body>
+</html>

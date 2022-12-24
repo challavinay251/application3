@@ -1,0 +1,59 @@
+body{
+    background-color: lightyellow;
+}
+h1{
+    background-color: yellow;
+    text-align: center;
+    color:blue;
+    border:2px Solid Brown;
+}
+h4{
+    background-color: lightpink;
+    text-align: center;
+    color:red;
+    width:75%;
+    margin:auto;
+    border:1px Solid Red;
+}
+/*#div1{*/
+/*     border: 5px Solid Red;*/
+/*    height:75%;*/
+
+/*}*/
+#div {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+#div2,#div3,#div4{
+    border:4px Solid green;
+    height:49%;
+}
+.indiv{
+    border:1px Solid Maroon;
+    float:left;
+    width:24.5%;
+    height:135px;
+    margin:1px;
+}
+img{
+    border:1px dotted blue;
+    width:90%;
+    height:126px;
+    margin:3px;
+    margin-left:8px;
+}
+img:hover{
+    border:4px Solid Blue;
+    width:95%;
+    height:130px;
+}

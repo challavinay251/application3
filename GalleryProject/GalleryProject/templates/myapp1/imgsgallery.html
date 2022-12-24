@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+        <link href="{% static 'css/imgsgallery.css' %}" rel="stylesheet" />
+<body>
+    <h1 id=h11>{{msg1}}</h1>
+    <h4 id=h22>Current Server Date & Time :: {{date1}}</h4>
+    <hr />
+    <div id="div1">
+        <div id="div2">
+            <div class="indiv"><img src="{%static 'images/afternoon.jpg'%}" alt="image1.jpg" /></div>
+            <div class="indiv"><img src="{%static 'images/evening.jpg'%}" alt="image2.jpg" /></div>
+            <div class="indiv"><img src="{%static 'images/img.jpg'%}" alt="image3.jpg" /></div>
+            <div class="indiv"><img src="{%static 'images/img2.jpg'%}" alt="image4.jpg" /></div>
+            <div class="indiv"><img src="{% static 'images/afternoon.jpg' %}"></div>
+        </div>
+        <div id="div3">
+            <div class="indiv"><img src="{% static 'images/sunshine.jpg' %}" alt="img.3jpr"></div>
+            <div class="indiv"><img src="{%static 'images/afternoon.jpg'%}" alt="image1.jpg" /></div>
+            <div class="indiv"><img src="{% static 'images/evening.jpg' %}" alt="img.jpr"></div>
+            <div class="indiv"><img src="{% static 'images/night.jpg' %}" alt="img2.jpr"></div>
+        </div>
+        <div id="div4">
+            <div class="indiv"><img src="{% static 'images/nature.jpg' %}" alt="img-4"></div>
+            <div class="indiv"><img src="{% static 'images/water.jpg' %}" alt="img-4"></div>
+            <div class="indiv"><img src="{% static 'images/windows.jpg' %}" alt="img-4"></div>
+            <div class="indiv"><img src="{% static 'images/healthyfood.jpg' %}" alt="img-4"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+

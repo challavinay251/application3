@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}   <!-- folder name-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image-Gallery DJango-App</title>
+    <link href="{%static 'css/imggallery2.css' %}" rel="stylesheet" />
+</head>
+<body>
+    <h1 id=h11>{{msg1}}</h1>
+    <h4 id=h22>Current Server Date & Time :: {{date1}}</h4>
+    <hr />
+    <div id="div1">
+        <div id="div2">
+            <img class="smallimg" src="{%static 'images/redmi1.jpg'%}" alt="image1.jpg" />
+            <img class="smallimg" src="{%static 'images/redmi2.jpg'%}" alt="image2.jpg" />
+            <img class="smallimg" src="{%static 'images/redmi3.jpg'%}" alt="image3.jpg" />
+            <img class="smallimg" src="{%static 'images/redmi4.jpg'%}" alt="image4.jpg" />
+            <img class="smallimg" src="{%static 'images/redmi5.jpg'%}" alt="image5.jpg" />
+        </div>
+        <div id="div3">
+            <img class="bigimg" src="{%static 'images/redmi4.jpg'%}" alt="image1.jpg" />
+        </div>
+    </div>
+</body>
+</html>
